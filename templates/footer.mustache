@@ -75,7 +75,7 @@
         <div id="course-footer">{{{ output.course_footer }}}</div>
         {{{ output.standard_end_of_body_html }}}
     </div>
-    {{/ footerdata }}
+    
     <div class="footer-bottom">
             <div class="site-footer-legal pt-2 col-md-6">
                 <nav class="nav navbar-nav d-none" aria-label="{{#str}}custommenu, admin{{/str}}">
@@ -87,7 +87,7 @@
                 </nav>
                 <a href="{{ bottomlink }}">{{{ bottomtext }}}</a>
             </div>
-            <div class="site-footer-right pt-2 col-md-6 text-right">
+            <div class="site-footer-right pt-2 col-md-12">
                 {{# poweredby }}
                     <a href="https://edwiser.org/remui/" rel="nofollow" target="_blank" >{{# str }} poweredby, theme_remui {{/ str }}</a>
                 {{/ poweredby }}
@@ -96,4 +96,5 @@
                 {{{ output.standard_footer_html }}}
             </div>
     </div>
+    {{/ footerdata }}
 </footer>
